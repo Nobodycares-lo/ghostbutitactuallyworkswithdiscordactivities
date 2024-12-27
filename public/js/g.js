@@ -1,5 +1,5 @@
-let gAPI = '/api/g/v1/'
-let degAPI = '/api/deg/v1/'
+let gAPI = '/assets/g.json'
+let degAPI = '/assets/deg.json'
 addEventListener('DOMContentLoaded', async (event) => {
     const gData = await fetch(gAPI)
         .then((response) => response.text())

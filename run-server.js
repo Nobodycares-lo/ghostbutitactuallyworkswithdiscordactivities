@@ -8,7 +8,7 @@ import { handler as ssrHandler } from './dist/server/entry.mjs'
 
 const server = http.createServer()
 const bare = createBareServer('/bare/')
-const PORT = 8080
+const PORT = 9879
 const app = express()
 const __dirname = process.cwd()
 const base = '/'

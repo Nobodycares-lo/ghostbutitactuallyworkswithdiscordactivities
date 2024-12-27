@@ -1,5 +1,5 @@
 addEventListener('DOMContentLoaded', async (event) => {
-    let aAPI = '/api/a/v1/'
+    let aAPI = '/assets/a.json'
     const gData = await fetch(aAPI)
         .then((response) => response.text())
         .then((text) => {

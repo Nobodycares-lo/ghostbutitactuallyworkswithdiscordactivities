@@ -1,4 +1,4 @@
-let rgAPI = '/api/rg/v1/'
+let rgAPI = '/assets/rg.json'
 addEventListener('DOMContentLoaded', async (event) => {
     const gData = await fetch(rgAPI)
         .then((response) => response.text())
@@ -30,7 +30,7 @@ addEventListener('DOMContentLoaded', async (event) => {
         i.appendChild(g)
     })
 })
-let raAPI = '/api/ra/v1/'
+let raAPI = '/assets/ra.json'
 addEventListener('DOMContentLoaded', async (event) => {
     const gData = await fetch(raAPI)
         .then((response) => response.text())
